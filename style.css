@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&family=Domine:wght@700&family=Open+Sans:wght@300&display=swap');
+
+
+body {
+  background-color: #f9f1ea;
+  font-family: 'Open Sans';
+  display: block;
+  margin: 8px;
+
+}
+
+h1,h2{
+  font-family: 'Averia Serif Libre';
+}
+h1 {
+  color: #1f1142;
+}
+
+h2, h3 {
+  color: #3f28de;
+}
+/*  color: #fece3e;
+*/
+
+.container {
+  width: 700px;
+  margin: 30px auto;
+}
+
+.white-card {
+  background-color: #fdfbf8;
+  text-align: center;
+  border-radius: 3px;
+  padding: 30px;
+  box-shadow: 2px 5px 5px rgb(0 0 0 / 5%);
+  margin: 20px 20px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+.list i {
+    font-size: 50px;
+    color: #fece3e;
+}
+
+.list i:hover{
+    color: #1f1142;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
