@@ -51,9 +51,13 @@ h2, h3 {
   padding-left: 0px;
 }
 
+.list li {
+  display: inline;
+  padding: 10px;
+}
 
 .list i {
-    font-size: 50px;
+    font-size: 20px;
     color: #d3c9c0;
 }
 
